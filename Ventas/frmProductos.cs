@@ -11,7 +11,6 @@ using Ventas.Entidades;
 
 namespace Ventas
 {
-    //Hiola
     public partial class frmProductos : Form
     {
         public frmProductos()
