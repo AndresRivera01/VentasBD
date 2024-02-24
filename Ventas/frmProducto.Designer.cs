@@ -40,24 +40,23 @@
             this.txtCodigoBarras = new System.Windows.Forms.TextBox();
             this.txtCodigo = new System.Windows.Forms.TextBox();
             this.txtId = new System.Windows.Forms.TextBox();
-            this.txtCategoria_Id = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.cmbCategoria = new System.Windows.Forms.ComboBox();
+            this.cmbCategorias = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(365, 186);
+            this.label4.Location = new System.Drawing.Point(636, 299);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(171, 37);
+            this.label4.Size = new System.Drawing.Size(154, 37);
             this.label4.TabIndex = 34;
-            this.label4.Text = "Productos";
+            this.label4.Text = "Producto";
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(732, 441);
+            this.btnEliminar.Location = new System.Drawing.Point(876, 571);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(114, 58);
             this.btnEliminar.TabIndex = 33;
@@ -67,7 +66,7 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(513, 441);
+            this.btnActualizar.Location = new System.Drawing.Point(643, 571);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(127, 64);
             this.btnActualizar.TabIndex = 32;
@@ -77,7 +76,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(296, 441);
+            this.btnAgregar.Location = new System.Drawing.Point(459, 571);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(135, 64);
             this.btnAgregar.TabIndex = 31;
@@ -149,13 +148,6 @@
             this.txtId.Size = new System.Drawing.Size(100, 31);
             this.txtId.TabIndex = 23;
             // 
-            // txtCategoria_Id
-            // 
-            this.txtCategoria_Id.Location = new System.Drawing.Point(205, 353);
-            this.txtCategoria_Id.Name = "txtCategoria_Id";
-            this.txtCategoria_Id.Size = new System.Drawing.Size(100, 31);
-            this.txtCategoria_Id.TabIndex = 56;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -165,21 +157,21 @@
             this.label5.TabIndex = 55;
             this.label5.Text = "Categoria";
             // 
-            // cmbCategoria
+            // cmbCategorias
             // 
-            this.cmbCategoria.FormattingEnabled = true;
-            this.cmbCategoria.Location = new System.Drawing.Point(348, 353);
-            this.cmbCategoria.Name = "cmbCategoria";
-            this.cmbCategoria.Size = new System.Drawing.Size(121, 33);
-            this.cmbCategoria.TabIndex = 57;
+            this.cmbCategorias.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCategorias.FormattingEnabled = true;
+            this.cmbCategorias.Location = new System.Drawing.Point(205, 353);
+            this.cmbCategorias.Name = "cmbCategorias";
+            this.cmbCategorias.Size = new System.Drawing.Size(226, 33);
+            this.cmbCategorias.TabIndex = 57;
             // 
             // frmProducto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(870, 548);
-            this.Controls.Add(this.cmbCategoria);
-            this.Controls.Add(this.txtCategoria_Id);
+            this.ClientSize = new System.Drawing.Size(1146, 921);
+            this.Controls.Add(this.cmbCategorias);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnEliminar);
@@ -214,8 +206,7 @@
         private System.Windows.Forms.TextBox txtCodigoBarras;
         private System.Windows.Forms.TextBox txtCodigo;
         private System.Windows.Forms.TextBox txtId;
-        private System.Windows.Forms.TextBox txtCategoria_Id;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox cmbCategoria;
+        private System.Windows.Forms.ComboBox cmbCategorias;
     }
 }
